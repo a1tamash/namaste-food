@@ -17,4 +17,19 @@
       - `Render` your cards with dynamic data of restaurants
       - Use `Array.map` to render all the restaurants
 
-## [😋 Food App Basic Layout 😍](https://food-app-basic-layout.netlify.app/)
+# Food Ordering App Structure
+
+- Header
+- - Logo
+- - Nav Items
+- Body
+- - Search
+- - RestaurantContainer
+-      - Restaurant Card
+-        - Img
+-        - Name of res, cusines , star rating , delivery time , etc.
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
