@@ -4,7 +4,10 @@
 	"description": "# Episode 04 - Talk is Cheap, show me the code!",
 	"scripts": {
 		"start": "parcel index.html",
-		"test": "jest"
+		"test": "jest",
+		"build": "parcel build src/index.html --dist-dir dist",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
 	},
 	"author": "Altamash Malik",
 	"license": "ISC",
@@ -16,6 +19,7 @@
 		"react-router-dom": "^6.26.0"
 	},
 	"devDependencies": {
+		"gh-pages": "^6.1.1",
 		"parcel": "^2.12.0",
 		"postcss": "^8.4.40",
 		"process": "^0.11.10",
